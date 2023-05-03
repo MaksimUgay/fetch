@@ -26,7 +26,7 @@ async function getUsers() {
             phone.textContent = `Телефон: ${user.phone}`;
 
             email.setAttribute('href', `mailto: ${user.email}`);
-            phone.setAttribute('href', `mailto: ${user.phone}`);
+            phone.setAttribute('href', `tel: ${user.phone}`);
 
             
 
